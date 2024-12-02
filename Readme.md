@@ -1,0 +1,159 @@
+# **LamboKahanas Website Documentation**
+
+1. Project Overview
+
+Purpose
+
+The Lambokahanas system consists of two components:
+
+Website Community Platform: A platform designed to enhance the technical skills of IT students by providing information about workshops, learning resources, and collaborative projects.
+
+Interactive Comment and Reaction System: A feature that allows students to engage with the content, discuss workshop topics, and provide feedback through likes, dislikes, and heart reactions.
+
+
+Key Features
+
+Community Platform:
+
+Post and share comments related to IT workshops, programming tutorials, and technical discussions.
+
+React to posts with like, dislike, or heart reactions.
+
+Limit one reaction per user per post.
+
+
+Workshop Recommendations:
+
+Display detailed information about upcoming workshops, courses, and tech events.
+
+Discuss and share experiences related to workshops and technical learning.
+
+
+
+
+2. User Roles and Permissions
+
+Regular User Community Platform
+
+Role: Explore and engage with content related to IT workshops, educational resources, and technical discussions.
+
+Permissions:
+
+Post and view comments.
+
+React to comments with like, dislike, or heart one reaction per comment.
+
+View recommended workshops, courses, and IT-related resources.
+
+
+
+
+3. Application Structure
+
+Technologies Used
+
+Frontend: HTML, CSS , JavaScript
+
+Backend Comments/Interaction Handling: JavaScript Local storage used for demo, scalable to server-side
+
+
+Pages:
+
+Home: Displays content related to IT workshops, educational resources, and community discussions.
+
+Community Discussion: Section dedicated to community feedback with comments and reaction features.
+
+Footer: Contains essential links like privacy policy, terms of service, and workshop registration information.
+
+
+
+4. Features and Functionalities
+
+4.1 Community Platform Features
+
+4.1.1 View and Post Comments
+
+Comment Section: Users can view comments related to IT workshops, skill-building exercises, and technical discussions about the IT industry.
+
+Post Comment: Users can post their own comments to share experiences or ask questions about workshops and learning resources.
+
+
+4.1.2 Reaction System
+
+Users can react to comments with one of three reactions:
+
+Like
+
+Dislike
+
+Heart
+
+
+Only one reaction is allowed per comment per user.
+
+
+
+5. Navigation Structure
+
+Home Page: Includes navigation links to various sections such as About Us, Upcoming Workshops, and Community Discussions.
+
+
+
+6. Comment System Functionality
+
+Posting a Comment: Users can type a comment and post it directly under the relevant discussion or workshop page.
+
+Viewing Comments: Displayed comments include user-generated posts about IT topics and workshops.
+
+Data Handling: Comments are stored using JavaScript arrays for demonstration purposes, but can be linked to a backend database for full functionality.
+
+
+
+7. Reaction System Functionality
+
+Reacting to Comments: Users can react to each comment with a like, dislike, or heart.
+
+One Reaction Per User: A script ensures that each user can only react once to any given comment.
+
+Reaction Counters: Each comment displays the number of likes, dislikes, and hearts it has received, which updates dynamically upon interaction.
+
+
+
+8. Design and Styling
+
+Bootstrap: Used for the layout and responsive design of the platform.
+
+Custom CSS: Applied to style the comments and reactions sections, ensuring a professional and user-friendly design.
+
+Fonts: Readable fonts for an accessible and modern look, promoting a clean learning environment.
+
+https://github.com/LamboKahanas/Lambo_Kahanas.git
+
+9. Deployment
+
+Local Deployment
+
+The project can be run locally using a basic web server setup.
+
+All functionality works offline with local data storage for testing.
+
+
+Web Hosting
+
+The platform is ready for deployment to web servers such as GitHub Pages or any standard web hosting service.
+
+
+
+10. Future Enhancements
+
+Backend Integration: Migrate from JavaScript-based local storage to a full backend for real-time user interaction handling.
+
+User Authentication: Introduce user login to manage individual accounts for personalized interactions and tracking of workshop participation.
+
+Workshop Database: Expand the website to provide a database of workshops with filtering options for users to find the best workshops based on skill level or area of interest.
+
+Analytics: Provide insights on community engagement, such as the most-reacted-to discussions, frequently asked workshop-related questions, and student performance data.
+
+
+
+This updated documentation reflects the focus on enhancing skills for IT students and fostering collaboration through 
